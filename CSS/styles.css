@@ -20,7 +20,7 @@ main{
   max-height: 800px;
   width: 100%;
   margin:0 auto;
-  background: url('../images/bg.jpg');
+  background: url('./images/bg.jpg');
   background-attachment: fixed center;
   background-repeat: no-repeat;
   background-size:cover;
