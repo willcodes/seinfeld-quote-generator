@@ -4,33 +4,29 @@
 	<meta charset="UTF-8">
 	<title>Seinfeld Quotes</title>
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="quotes/seinfeld.js"></script>
-  <script type="text/javascript" src=script/script.js></script>
 </head>
-<body>
-    <!-- quote -->
-  <div class = "jumbotron">
-  <div id="header">
-    <h1> <span>Seinfeld :</span> One Liners</h1>
-  </div>
-   <h3 id="thisquote">
-   Click the button for a random one-liner from everyones favorite New Yorkers.
-    </h3>
-
-<p id="thisauthor"> </p>
-<div class=container>
-    <div class="btn btn-default" id="getQuote">
-      click me!
-    </div>
-    <div id="tweet" class="btn btn-2 btn-default"><a id="tweet-me" href=''>tweet it</a></div>
-  </div>
- </div>
- <footer>
-  <div class="info" id="info"></div>
- </footer>
-</body>
+<html>
+  <body>
+    <main>
+        <div class = "wrapper">
+          <div id="header">
+            <h1> <span>Seinfeld :</span> One Liners</h1>
+          </div>
+         <h3 id="thisquote">Click the button for a random one-liner from everyones favorite New Yorkers.</h3>
+            <p id="thisauthor"></p>
+          <button class="btn btn-default" id="getQuote">click me!</button>
+       </div>
+    </main>
+     <footer class="clearfix">
+        <div class="container"> 
+          <div class="info" id="info">website.com</div>
+          <button id="tweet" class="btn-2"><a id="tweet-me" href=''>tweet it</a></button>
+        </div>
+     </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script type="text/javascript" src="quotes/seinfeld.js"></script>
+      <script type="text/javascript" src=script/script.js></script>
+  </body>
 </html>

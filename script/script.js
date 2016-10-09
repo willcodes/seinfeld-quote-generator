@@ -8,7 +8,7 @@ $("#tweet").hide();
         var episode = random.episode;
         var season = random.season;
         if (random.image === "") {
-            image = '../seinfeld/images/bg.jpg';
+            image = './images/bg.jpg';
         }
         if (season === undefined) {
             season = "Unknown";
@@ -16,7 +16,7 @@ $("#tweet").hide();
         if (episode === undefined) {
             episode = "Unknown";
         }
-        $("body").css("background-image", "url(" + image + ")");
+        $("main").css("background-image", "url(" + image + ")");
         $("#thisquote").text(thequote);
         $("#thisauthor").text("-" + random.author);
         $("#info").text("Season " + season + ":" + " Episode " +
