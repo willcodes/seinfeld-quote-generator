@@ -281,7 +281,7 @@ quotes = [
 },
 {
 	"quote": "You know my feelings on this-- I don't even pay taxes!",
-	"author": "George",
+	"author": "Kramer",
 	"season": "3",
 	"episode": "2",	
 	"image": "./Images/19-1.png"
